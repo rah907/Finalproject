@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    
+  
+}  
+
+    li a{
+        text-decoration: none;
+        padding: 40px; 
+         border-radius: 3px;
+         color: black;
+      
+        
+      
+        
+      
+    }
+    li{
+        margin-top: 20px;
+      
+    }
+
+
+     ul {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding:20px;
+        list-style-type: none;
+        margin-bottom: 40px;
+        background-color: #ba6f3d;
+        border-radius: 30px;
+    
+        
+
+    }
+    li:hover{
+    background-color: #d9a476;
+    border-radius: 40px;
+ 
+    }
+
+  .city{
+            width: 100%;
+            height: 400px;
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding:60px;
+            padding-top: 20px;
+            animation-name: city;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            
+           
+           }
+      @keyframes city{
+        0%{
+            background-color:#be784a;
+        }
+        50%{
+            background-color: #FED8B1;
+
+        }
+        100%{
+            background-color:#b97344;
+        }
+      }
+
+        
+.head img{
+    width:50%;
+    height:360px;
+    margin-top: 0%;
+    margin-bottom: 40px;
+    float: right;
+    border-radius:100px 0;
+    padding: 30px;
+    margin-right: 90px;
+    animation-name: pluse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes pluse{
+    0%{
+        transform: scale(1);}
+    100%{
+        transform: scale(1.1);
+        }
+    }
+
+
+
+.head1 h1{
+    font-size: 70px;
+    margin-left: 86px;
+    padding-top: 50px;
+padding-left: 60px;}
+.contaner1{
+        width: 100%;
+        height:400px;
+        background-color:#d9a476;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         padding: 10px;
+       
+     }
+   .contaner1 .pic {
+    width: 300px;
+    height:300px;;
+    margin: 20px;
+ 
+   }
+     .contaner1 img{
+        width: 300px;
+        height: 300px;
+        padding:10px;
+        border-radius: 10px;
+       
+     }
+   .contaner2{
+        width: 100%;
+        height:400px;
+        background-color: #d9a476;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+       
+
+   }
+   .contaner2 .pic2{
+    width: 300px;
+    height:300px;
+    margin: 20px;
+    border-radius: 12px;
+   }
+     .contaner2 img{
+         width: 300px;
+        height: 300px;
+        padding:10px;
+       
+     }
+     .fic{
+        font-size: 20px;
+        text-align: center;
+     }
+
+
+
+
+     /* part2 */
+     
+     .can1{
+         width: 100%;
+        height:300px;
+        background-color: rgba(252, 234, 196, 0.861);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         padding: 10px;
+       
+     }
+     @keyframes circle{
+        0%{
+            transform: rotate(0deg);
+
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+     }
+
+      .can1 .pic{
+    width: 250px;
+    height:250px;
+    background-color: white;
+    margin: 20px;
+    border-radius:100%;
+   }
+     .can1 img{
+         width: 250px;
+        height: 250px;
+        padding:10px;
+        border-radius: 100%;
+         animation-name: circle;
+        animation-duration:25s;
+        animation-iteration-count: infinite;
+       
+     }
+
+          .can2{
+         width: 100%;
+        height:330;
+        background-color: rgba(252, 234, 196, 0.861);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         padding: 10px;
+       
+     }
+     @keyframes circle2{
+        0%{
+            transform: rotate(0deg);
+
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+     }
+
+      .can2 .pic{
+    width: 250px;
+    height:250px;
+    background-color: white;
+    margin: 20px;
+    border-radius:100%;
+   }
+     .can2 img{
+         width:250px;
+        height: 250px;
+        padding:10px;
+        border-radius: 100%;
+         animation-name: circle2;
+        animation-duration:25s;
+        animation-iteration-count: infinite;
+       
+     }
+
+     /* part3....food */
+
+   .food{
+    width: 100%;
+    height: 300px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+
+   }
+   .food .img{
+    width: 250px;
+ 
+   }
+
+.contact input[type=text]{
+     padding: 10px;
+     margin: 10px;
+     border: 3px solid #ba6f3d;
+     background-color: bisque;
+}
+
+
+ textarea{
+     padding: 10px;
+     margin: 20px;
+     border: 3px solid #ba6f3d;
+      background-color: bisque;
+
+}
+label{
+    margin:20px;
+}
+
+.contact input[type=submit]{
+    padding: 10px;
+    margin-left: 30px;
+    margin: 10px;
+    background-color: #ba6f3d;
+    border: 3px solid #ab4f11;
+    color: #743a03;
+}
+fieldset {
+    color: #ab4f11;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:  #ba6f3d;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+
+.img23 img{
+    width: 35px;
+    height: 35px;
+    margin: 20px;
+  
+   
+}
